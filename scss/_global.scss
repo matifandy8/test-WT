@@ -1,0 +1,65 @@
+$font-p: 1.8rem;
+$font-h1: 3.0rem;
+$font-h2: 2.4rem;
+$font-h3: 2.0rem;
+
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    height: 100%;
+    margin:0;
+    padding:0;
+    line-height: 1.6;
+    font-family: sans-serif;
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+p{
+    font-size:$font-p;
+    color: rgb(134, 132, 132);
+}
+
+h2{
+    font-size: $font-h2;
+}
+
+h3{
+    font-size: $font-h3;
+    font-weight:lighter;
+}
+
+.button {
+    display: block;
+    background-color: #499edb;
+    color: white;
+    padding: 15px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 3px;
+    letter-spacing: 2px
+  }
