@@ -1,0 +1,1 @@
+function validarCedula(r){for(var n=new Array(2,9,8,7,6,3,4,1),a=0,e=parseInt(n.length-r.length),t=r.length-1;t>-1;t--){var l=r.substring(t,t+1);a+=parseInt(l)*n[t+e]}var g=!1;return a%10==0&&(g=!0),g}
